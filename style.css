@@ -98,7 +98,7 @@ span{
     border: 2px solid transparent;
     border-radius: 8px;
     font-size: 18px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-weight: 600;
     transition: 0.3s ease;
     cursor: pointer;
@@ -125,12 +125,13 @@ span{
     color: orangered;
 }
 .img-box img{
-    border-radius: 50%;
-    width: 550px;    
+    border-radius:100%;
+    width:400px;
+
 }
 
 ::-webkit-scrollbar{
-    width: 15px;
+    width: 5px;
 }
 ::-webkit-scrollbar-thumb{
     background-color: orangered;   
@@ -150,7 +151,7 @@ span{
 }
 .about-img img{
     position: relative;
-    width: 550px;
+    width: 500px;
     box-shadow: 0 0 25px orangered,
                 0 0 50px orangered;
     border-radius: 50%;
@@ -186,6 +187,7 @@ span{
     width: 100%;
 }
 
+
 .contact-form h2{
     text-align: center;
     margin-top: 3em;
@@ -206,15 +208,20 @@ span{
 
 }
 
+.input-box{
+    margin-bottom:10px;
+}
+
 .contact-form form,
 .input-box input,
 .contact-form form textarea{
-    width: 100%;
+    width: 600px;
     padding: 15px;
     font-size: 18px;
     color: black;
     background: rgb(255, 255, 255);
-    border-radius: 12px;
+    border-radius: 30px;
     margin: 5px 0;
     resize: none;
+    border-width:1px;
 }
