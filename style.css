@@ -573,21 +573,25 @@ Experience
 .design-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 35px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .design {
     width: 220px;
     height: 280px;
     overflow: hidden;
-    border-radius: 10px;
+    
 }
 
 .design img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 300px;
+    object-fit: contain;
     display: block;
+    
     transition: transform 0.3s ease;
 }
 
