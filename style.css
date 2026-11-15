@@ -540,3 +540,57 @@ Experience
     margin-top:15px;
     font-weight:bold;
 }
+
+
+/******* Projects ******/
+
+
+.projects {
+    background-color: #F8F4EC;
+    min-height: 100vh;
+    padding: 60px 55px;
+}
+
+.project-heading {
+    margin-bottom: 40px;
+}
+
+.project-heading h1{
+    font-size: 45px;
+    color: black;
+    margin-top:80px;
+}
+
+.project-heading h1 span {
+    color: orangered;
+}
+
+.project-heading p {
+    font-size: 18px;
+    color:black;
+}
+
+.design-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.design {
+    width: 220px;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.design img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.design img:hover {
+    transform: scale(1.05);
+}
